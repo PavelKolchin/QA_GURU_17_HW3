@@ -9,7 +9,8 @@ public class HelloWorld {
     }
     @Test
     void new_test(){
-        Assertions.assertTrue (3>2);
+        int i=3;
+        Assertions.assertTrue (i>2);
     }
 }
 
